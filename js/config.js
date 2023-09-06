@@ -26,6 +26,9 @@ class Config {
 			},
 			'y/': {
 				urlPrefix: 'https://youtube.com/results?search_query='
+			},
+			'rb/': {
+				urlPrefix: 'https://www.roblox.com/discover/?Keyword='
 			}
 		};
 
