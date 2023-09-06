@@ -26,9 +26,6 @@ class Config {
 			},
 			'y/': {
 				urlPrefix: 'https://youtube.com/results?search_query='
-			},
-			'n/': {
-				urlPrefix: 'https://nhentai.net/g/'	
 			}
 		};
 
@@ -58,6 +55,10 @@ class Config {
 			'bing': {
 				name: 'Bing',
 				prefix: 'https://www.bing.com/search?q='
+			},
+			'searX': {
+				name: 'SearX',
+				prefix: 'https://searx.mha.fi/search?q='
 			}
 		};
 
@@ -346,9 +347,9 @@ class Config {
 				url: 'https://github.com/'
 			},
 			{
-				site: 'Facebook',
-				icon: 'facebook',
-				url: 'https://facebook.com/'
+				site: 'Roblox',
+				icon: 'roblox',
+				url: 'https://www.roblox.com/home'
 			},
 			{
 				site: 'Gmail',
