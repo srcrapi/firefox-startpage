@@ -10,7 +10,7 @@ class Config {
 	getQuickSearchData = () => {
 		const quickSearchData = {
 			'r/': {
-				urlPrefix: 'https://reddit.com/r/'
+				urlPrefix: 'https://www.roblox.com/discover/?Keyword='
 			},
 			'w/': {
 				urlPrefix: 'https://wikipedia.org/wiki/'
@@ -326,6 +326,18 @@ class Config {
 				icon: 'mdn',
 				url: 'https://developer.mozilla.org/',
 				category: 'development'
+			},
+			{
+				site: 'ChatGPT',
+				icon: 'chatgpt',
+				url: 'https://chat.openai.com/',
+				category: 'development'
+			},
+			{
+				site: 'Roblox',
+				icon: 'roblox',
+				url: 'https://www.roblox.com/home',
+				category: 'media'
 			}
 		];
 
@@ -337,9 +349,9 @@ class Config {
 		// A list of websites that will be generated and put on the dock
 		const dockSites = [
 			{
-				site: 'Reddit',
-				icon: 'reddit',
-				url: 'https://reddit.com/'
+				site: 'ArchWiki',
+				icon: 'archwiki',
+				url: 'https://wiki.archlinux.org/'
 			},
 			{
 				site: 'Github',
@@ -362,9 +374,9 @@ class Config {
 				url: 'https://youtube.com/'
 			},
 			{
-				site: 'GDrive',
-				icon: 'gdrive',
-				url: 'https://drive.google.com/'
+				site: 'ChatGPT',
+				icon: 'chatgpt',
+				url: 'https://chat.openai.com/'
 			},
 			{
 				site: 'Twitter',
@@ -372,9 +384,9 @@ class Config {
 				url: 'https://twitter.com/'
 			},
 			{
-				site: 'Material.io',
-				icon: 'materialio',
-				url: 'https://material.io/'
+				site: 'Instagram',
+				icon: 'instagram',
+				url: 'https://instagram.com/'
 			}
 		];
 
