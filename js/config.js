@@ -344,6 +344,12 @@ class Config {
 				icon: 'roblox',
 				url: 'https://www.roblox.com/home',
 				category: 'media'
+			},
+			{
+				site: 'WhatsApp',
+				icon: 'whatsapp',
+				url: 'https://web.whatsapp.com/',
+				category: 'social'
 			}
 		];
 
@@ -370,9 +376,9 @@ class Config {
 				url: 'https://www.roblox.com/home'
 			},
 			{
-				site: 'Gmail',
-				icon: 'gmail',
-				url: 'https://mail.google.com/'
+				site: 'WhatsApp',
+				icon: 'whatsapp',
+				url: 'https://web.whatsapp.com/'
 			},
 			{
 				site: 'Youtube',
