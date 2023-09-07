@@ -29,6 +29,9 @@ class Config {
 			},
 			'g/': {
 				urlPrefix: 'https://github.com/'
+			},
+			'p/': {
+				urlPrefix: 'https://www.pinterest.pt/'
 			}
 		};
 
