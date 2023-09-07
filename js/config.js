@@ -26,6 +26,9 @@ class Config {
 			},
 			'y/': {
 				urlPrefix: 'https://youtube.com/results?search_query='
+			},
+			'g/': {
+				urlPrefix: 'https://github.com/'
 			}
 		};
 
