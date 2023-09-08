@@ -266,6 +266,12 @@ class Config {
 				icon: 'whatsapp',
 				url: 'https://web.whatsapp.com/',
 				category: 'social'
+			},
+			{
+				site: 'Outlook',
+				icon: 'outlook',
+				url: 'https://outlook.live.com/mail/0/',
+				category: 'social'
 			}
 		];
 
