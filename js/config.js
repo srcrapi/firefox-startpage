@@ -32,6 +32,9 @@ class Config {
 			},
 			'p/': {
 				urlPrefix: 'https://www.pinterest.pt/search/pins/?q='
+			},
+			't/': {
+				urlPrefix: 'https://twitter.com/search?q='
 			}
 		};
 
