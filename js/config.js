@@ -275,7 +275,13 @@ class Config {
 				icon: 'outlook',
 				url: 'https://outlook.live.com/mail/0/',
 				category: 'social'
-			}
+			},
+			{
+				site: 'Epl',
+				icon: 'epl',
+				url: 'https://epl.pt/',
+				category: 'information'
+			}	
 		];
 
 		return webSites;
