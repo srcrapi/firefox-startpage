@@ -35,6 +35,9 @@ class Config {
 			},
 			't/': {
 				urlPrefix: 'https://twitter.com/search?q='
+			},
+			'i/': {
+				urlPrefix: 'https://www.instagram.com/'
 			}
 		};
 
@@ -281,7 +284,13 @@ class Config {
 				icon: 'epl',
 				url: 'https://epl.pt/',
 				category: 'information'
-			}	
+			},
+			{
+				site: 'Convertio',
+				icon: 'convertio',
+				url: 'https://convertio.co/',
+				category: 'design'
+			}
 		];
 
 		return webSites;
