@@ -13,7 +13,7 @@ class Config {
 				urlPrefix: 'https://www.roblox.com/discover/?Keyword='
 			},
 			'w/': {
-				urlPrefix: 'https://wikipedia.org/wiki/'
+				urlPrefix: 'https://wallhaven.cc/search?q='
 			},
 			'd/': {
 				urlPrefix: 'https://www.deviantart.com/search?q='
@@ -289,6 +289,24 @@ class Config {
 				site: 'Convertio',
 				icon: 'convertio',
 				url: 'https://convertio.co/',
+				category: 'design'
+			},
+			{
+				site: 'WallHaven',
+				icon: 'wallhaven',
+				url: 'https://wallhaven.cc/',
+				category: 'design'
+			},
+			{
+				site: 'Notion',
+				icon: 'notion',
+				url: 'https://www.notion.so/',
+				category: 'development'
+			},
+			{
+				site: 'PostImages',
+				icon: 'postimages',
+				url: 'https://postimages.org/',
 				category: 'design'
 			}
 		];
